@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.npz
+*.wav
+*.mp3
+*.ipynb_checkpoints
+.env
+data/
+features/
+checkpoints/
