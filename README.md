@@ -37,6 +37,9 @@ All features are fused through a dense projection and classification head.
 * Early stopping + LR scheduling
 * Class imbalance handling with weighted loss
 
+  <img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/4c72d3d6-4fe8-4bfc-acbe-41ba7207600b" />
+
+
 ---
 
 # 📊 Datasets Used
@@ -57,6 +60,8 @@ Emotion Classes:
 * Fear
 * Disgust
 
+<img width="873" height="592" alt="Screenshot 2025-12-16 073227" src="https://github.com/user-attachments/assets/1bf018ed-186a-4844-a420-48b24d228310" />
+
 ---
 
 # 📈 Performance
@@ -66,6 +71,8 @@ Emotion Classes:
 * **Accuracy:** 90.66%
 * **Macro F1:** 0.9071
 * Balanced precision-recall across all classes
+
+<img width="549" height="316" alt="Screenshot 2026-02-19 074552" src="https://github.com/user-attachments/assets/ef1240ef-45bb-46a6-8da2-7d7fd1260185" />
 
 The model shows strong generalization with minimal overfitting.
 
@@ -79,6 +86,9 @@ To make the model interpretable:
 
 * Highlights time-frequency regions of spectrograms responsible for predictions.
 * Identifies emotionally relevant acoustic patterns.
+
+  <img width="1049" height="522" alt="Screenshot 2026-02-19 074818" src="https://github.com/user-attachments/assets/239862fe-6c92-4c96-82a8-766e9097e328" />
+
 
 ### 🧠 LIME
 
@@ -144,4 +154,5 @@ Speech-Emotion-Recognition-Fusion/
 
 Speech Emotion Recognition Research & Implementation Project
 Patent filed for the proposed hybrid fusion framework.
+
 
